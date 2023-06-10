@@ -1,0 +1,17 @@
+.app-list-item button {
+    margin-right: 5px;
+}
+
+.app-list-item.done .app-list-text {
+    text-decoration: line-through;
+}
+
+.app-list-item.important .app-list-text {
+    font-weight: bold;
+    color: lightseagreen;
+}
+
+.app-list-text {
+    cursor: pointer;
+    user-select: none;
+}
